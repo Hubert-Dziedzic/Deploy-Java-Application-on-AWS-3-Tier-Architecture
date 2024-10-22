@@ -1,1 +1,2 @@
 # Deploy-Java-Application-on-AWS-3-Tier-Architecture
+This project focuses on deploying a scalable, highly available, and secure Java application using a 3-tier architecture on AWS. The architecture leverages AWS services such as EC2 for the compute layer, RDS for database management, and VPC for networking and security. This ensures robust availability and scalability, with the application being accessible to users via the public internet.
