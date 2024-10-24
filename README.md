@@ -29,7 +29,7 @@ Before creating custom AMIs for the different tiers, follow these steps to insta
   sudo systemctl enable amazon-ssm-agent
   ```
 ## Creating Golden AMIs
-  ### 1. Nginx AMI
+### 1. Nginx AMI
 - Launch an EC2 instance and install Nginx:
   ```
   sudo amazon-linux-extras install nginx1.12
@@ -45,7 +45,7 @@ Before creating custom AMIs for the different tiers, follow these steps to insta
       sleep 60
   done &
   ```
-  ### 2. Apache Tomcat AMI
+### 2. Apache Tomcat AMI
 - Launch an EC2 instance and install Apache Tomcat:
   ```
   sudo amazon-linux-extras install java-openjdk11 -y
